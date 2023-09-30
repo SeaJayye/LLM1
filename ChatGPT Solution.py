@@ -45,3 +45,5 @@ print(convert_units(1, "pounds", "kilograms"))  # 0.453592
 print(convert_units(1, "grams", "ounces"))  # 0.035274
 print(convert_units(0, "celsius", "Fahrenheit"))  # 32.0
 print(convert_units(32, "Fahrenheit", "celsius"))  # 0.0
+
+# LLM additionally specifies that the units should be validated before passing them into the function for additional robustness.
